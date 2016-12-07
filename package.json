@@ -1,0 +1,26 @@
+{
+  "name": "gattacker-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "bleno": "^0.4.1",
+    "gattacker": "^0.1.4",
+    "noble": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scan": "node node_modules/gattacker/scan.js $@",
+    "ws-slave": "node node_modules/gattacker/ws-slave.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoKatel/gattacker-test.git"
+  },
+  "author": "Gustavo Sampaio (@GustavoKatel)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoKatel/gattacker-test/issues"
+  },
+  "homepage": "https://github.com/GustavoKatel/gattacker-test#readme"
+}
