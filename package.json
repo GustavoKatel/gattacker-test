@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "scan": "node node_modules/gattacker/scan.js $@",
-    "ws-slave": "node node_modules/gattacker/ws-slave.js"
+    "ws-slave": "node node_modules/gattacker/ws-slave.js $@"
   },
   "repository": {
     "type": "git",
